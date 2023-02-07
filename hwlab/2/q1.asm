@@ -1,3 +1,8 @@
+;Made by Pranav Prashant
+;Inorder to run this program:
+;Compile: nasm -f elf q4.asm
+;Link: ld -melf_i386 q3.o -o q3
+
 section .data
 newline: db '',10
 l1: equ $-newline
@@ -148,3 +153,9 @@ printing:
 end_print:
 	popa
 	ret
+	
+
+;Made by Pranav Prashant
+;Inorder to run this program:
+;Compile: nasm -f elf q4.asm
+;Link: ld -melf_i386 q3.o -o q3

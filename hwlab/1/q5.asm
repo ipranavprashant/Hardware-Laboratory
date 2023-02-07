@@ -1,3 +1,8 @@
+;Made by Pranav Prashant
+;Inorder to run this program:
+;Compile: nasm -f elf q4.asm
+;Link: ld -melf_i386 q3.o -o q3
+
 section .text
 global _start:
 _start:
@@ -130,3 +135,9 @@ var1: resw 10
 num: resw 10
 var2: resw 10
 num1: resw 10
+
+
+;Made by Pranav Prashant
+;Inorder to run this program:
+;Compile: nasm -f elf q4.asm
+;Link: ld -melf_i386 q3.o -o q3

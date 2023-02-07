@@ -1,3 +1,8 @@
+;Made by Pranav Prashant
+;Inorder to run this program:
+;Compile: nasm -f elf q4.asm
+;Link: ld -melf_i386 q3.o -o q3
+
 section .data
 n1 : db "Enter an integer", 10
 ln1 : equ $-n1
@@ -120,5 +125,10 @@ global _start:
     mov ebx, 0
     int 80h
     
+    
+ ;Made by Pranav Prashant
+;Inorder to run this program:
+;Compile: nasm -f elf q4.asm
+;Link: ld -melf_i386 q3.o -o q3   
 
     

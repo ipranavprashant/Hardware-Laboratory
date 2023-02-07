@@ -127,11 +127,3 @@ end_print:
 ;Inorder to run this program:
 ;Compile: nasm -f elf q4.asm
 ;Link: ld -melf_i386 q3.o -o q3
-
-
-
-;Made by Pranav Prashant
-;Inorder to run this program:
-;Compile: nasm -f elf q4.asm
-;Link: ld -melf_i386 q3.o -o q3
-	

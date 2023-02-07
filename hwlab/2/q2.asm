@@ -1,3 +1,8 @@
+;Made by Pranav Prashant
+;Inorder to run this program:
+;Compile: nasm -f elf q4.asm
+;Link: ld -melf_i386 q3.o -o q3
+
 section .data
 msg1:db 'Enter the number',0Ah
 l1:equ $-msg1
@@ -116,3 +121,7 @@ popa
 ret
 
 
+;Made by Pranav Prashant
+;Inorder to run this program:
+;Compile: nasm -f elf q4.asm
+;Link: ld -melf_i386 q3.o -o q3

@@ -31,7 +31,3 @@ int 80h
 mov eax,1
 mov ebx,0
 int 80h
-
-
-//Additions
-eax,3 is to read
